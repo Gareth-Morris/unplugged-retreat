@@ -93,26 +93,46 @@ textarea {
      display: flex;
      justify-content: center;
      align-items: center;
+     flex-flow: row wrap;
  }
 
 /* ----------header styles---------*/
 
- header .content-wrapper {
+header {
+  padding: 15px 0;
+} 
+
+header .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
+    width: 60%;
+    margin: 0;
 }
 
 header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 30%;
+  padding: 0;
+}
+
+header nav ul li {
+  padding: 18px 10px;
+}
+
+header .header-divider {
+  width: 100%;
 }
 
 /*--------footer styles-------------*/
@@ -129,36 +149,96 @@ footer .social {
   align-items: center;
 }
 
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+footer p {
+  margin: 0;
+}
+
 /*--------main area------------*/
 
 .hero-area {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
+}
+
+.hero-area h1 {
+  padding: 55px 22px;
 }
 
 aside {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
+}
+
+aside .form-description {
+  padding: 30px 20px 20px 20px;
+}
+
+aside .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 10px 20px;
 }
 
 .features {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .features .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
+  width: 55%;
+  padding: 25px 75px;
+}
+
+.features h2 {
+  padding: 0 22px;
+}
+
+.features p {
+  margin: 0;
 }
 
 .reviews {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
+}
+
+.reviews h2 {
+  padding: 55px 15px 30px 15px;
+}
+
+.reviews h3 {
+  width: 50%;
+  padding: 20px;
+}
+
+.testimonial-text {
+  padding: 20px;
 }
 
 /*----------About Page-----------*/
@@ -167,12 +247,14 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .contact-section {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 /*------------FAQ Page-----------*/
@@ -181,12 +263,14 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
-.faq .content-wrapper{
+.faq .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 
