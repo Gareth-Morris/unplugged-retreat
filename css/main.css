@@ -230,6 +230,11 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 15px;
+  background-color: #527158;
+  border: 5px solid;
+  border-color: #527158;
+  border-radius: 20px;
 }
 
 footer .copyright {
@@ -316,8 +321,6 @@ aside {
 .reviews h2 {
   margin-bottom: 40px;
 }
-
-
 
 .reviews h3 {
   width: 55%;
@@ -580,15 +583,25 @@ aside .content-wrapper .form {
   justify-content: space-between;
 }
 
-.reviews article div {
+.reviews h2 {
+  width: 85%;
+}
+
+.reviews article div,
+.reviews article figure {
   width: 49%;
+}
+
+.reviews article div h3 {
+  margin-top: 0;
+  padding: 0;
 }
 
 /* Footer */
 
 footer .content-wrapper {
   width: 65%;
-  margin: 100px 0:
+  margin: 100px 0;
 }
 
 .footer-content {
@@ -603,6 +616,11 @@ footer .contact {
 
 footer .copyright {
   width: 100%;
+}
+
+footer .social-icons {
+  width: 12.5em;
+  justify-content: space-between;
 }
 
 /*About page*/
@@ -686,7 +704,11 @@ aside .content-wrapper .form {
 
 .reviews article div {
   width: 42%;
+  max-width: 420px;
 }
+
+
+
 
 /* About page */
 
